@@ -290,6 +290,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
+                  to="/blogpage"
                   onClick={() => setIsMenuOpen(false)}
                   className="font-bold text-xs tracking-wide text-black transition-colors duration-200 hover:text-amber-600"
                 >
